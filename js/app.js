@@ -132,7 +132,7 @@ class YouthSpaceApp {
         this.modalPhoto.style.backgroundSize = 'cover';
         this.modalPhoto.style.backgroundPosition = 'center';
         this.modalName.textContent = member.name;
-        // Використовуємо descKey для перекладу опису
+        // ВАЖЛИВО: використовуємо member.descKey
         const descText = t(member.descKey);
         this.modalDesc.textContent = descText;
         this.modal.classList.add('active');
