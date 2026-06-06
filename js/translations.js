@@ -1,6 +1,5 @@
 const TRANSLATIONS = {
     UA: {
-        // Навігація
         home: 'Головна',
         opportunities: 'Можливості',
         aboutUs: 'Про нас',
@@ -9,19 +8,16 @@ const TRANSLATIONS = {
         news: 'Новини',
         contacts: 'Контакти',
         
-        // Hero секція
         heroTitle: 'Змінюй себе, змінюй світ',
         heroText: 'Ми - молодіжна організація, яка об\'єднує активних, творчих та амбітних молодих людей. Наша мета - створювати умови для розвитку, навчання та реалізації потенціалу кожної молодої людини.',
         learnMore: 'Дізнатися більше',
         contactUs: 'Зв\'язатися з нами',
         
-        // Про нас
         aboutTitle: 'Про нас',
         aboutText1: 'Ми — Молодіжна рада при Чорноморській селищній раді. Наша команда ентузіастів вірить у силу молоді та її здатність змінювати світ на краще. Ми об\'єднуємо молодих людей, які прагнуть розвиватися, навчатися нового та реалізовувати свої ідеї.',
         aboutText2: 'Ми створюємо простір, де кожен може отримати підтримку, здобути нові знання та знайти однодумців для спільних проєктів. Наша місія — розкривати потенціал кожної молодої людини та надавати їй можливості для особистого та професійного зростання.',
         aboutText3: 'Через наші ініціативи ми прагнемо сприяти розвитку громади та створювати умови, де молодь може вільно висловлювати свої думки, пропонувати ідеї та брати активну участь у житті суспільства.',
         
-        // Можливості
         opportunitiesTitle: 'Наші можливості',
         educationTitle: 'Освітні програми',
         educationDesc: 'Курси, воркшопи, лекції для розвитку знань та навичок.',
@@ -36,15 +32,12 @@ const TRANSLATIONS = {
         creativityTitle: 'Творчі майстерні',
         creativityDesc: 'Малювання, музика, рукоділля — розкрий свій талант.',
         
-        // Навчання
         trainingsTitle: 'Як проходили наші навчання',
         trainingsText1: 'На протязі всього часу ми зустрічалися з різними людьми та навчалися новому. Ми проводили майстер-класи, воркшопи, лекції та практичні заняття з професіоналами різних галузей. Кожна зустріч була унікальною можливістю отримати цінні знання, розвинути навички та знайти нових друзів-однодумців.',
         trainingsText2: 'Наші навчання охоплювали різноманітні теми: від лідерства та комунікації до цифрових навичок та креативного мислення. Ми віримо, що безперервне навчання - це ключ до особистого та професійного зростання.',
         
-        // Команда
         teamTitle: 'Наша Команда',
         
-        // Новини
         newsTitle: 'Новини',
         allNews: 'Дивитися всі новини',
         news1Title: 'ФОРМУВАННЯ МОЛОДІЖНОЇ РАДИ',
@@ -54,14 +47,13 @@ const TRANSLATIONS = {
         news3Title: 'Оновлений дитячий майданчик у селі Змієнкове',
         news3Desc: 'Нещодавно наша згуртована громада ще раз довела, що разом ми можемо зробити своє село кращим. Завдяки активності молоді та небайдужим мешканцям було проведено справжній Upgrade дитячого майданчика.',
         
-        // Контакти
         contactsTitle: 'Зв\'яжіться з нами',
         contactsText: 'Ми завжди раді новим знайомствам, співпраці та вашим ідеям. Слідкуйте за нашими проєктами в соціальних мережах та приєднуйтесь до нашої молодіжної спільноти!',
         followUs: 'Слідкуйте за нами',
         facebook: 'Facebook',
         instagram: 'Instagram',
         
-        // ОПИСИ УЧАСНИКІВ (УКРАЇНСЬКОЮ)
+        // ОПИСИ УЧАСНИКІВ (УКРАЇНСЬКОЮ) - ВАШІ ОРИГІНАЛЬНІ ТЕКСТИ
         teamArtem: 'Голова Молодіжної ради при Чорноморській селищній раді. Тренер з Кіокушин карате та вчитель фізичної культури. Активно працює з молоддю нашої громади.',
         
         teamVeronika: 'Мене звати Вероніка Філончик, я — заступниця голови Молодіжної ради при Чорноморській селищній раді. Для мене Молодіжна рада — це не просто організація, а можливість втілювати ідеї, які роблять наше життя кращим. Я приєдналася, бо хочу, щоб молодь мала простір для розвитку, творчості та самовираження, щоб кожен відчував, що саме від нас залежить майбутнє нашої громади. Моя мета — працювати над проєктами, які допоможуть молодим людям розкривати свій потенціал, підтримувати ініціативи та створювати нові традиції, що об\'єднають громаду.',
@@ -100,7 +92,6 @@ const TRANSLATIONS = {
     },
     
     EN: {
-        // Navigation
         home: 'Home',
         opportunities: 'Opportunities',
         aboutUs: 'About Us',
@@ -109,19 +100,16 @@ const TRANSLATIONS = {
         news: 'News',
         contacts: 'Contacts',
         
-        // Hero section
         heroTitle: 'Change Yourself, Change the World',
         heroText: 'We are a youth organization that brings together active, creative and ambitious young people. Our goal is to create conditions for development, learning and realization of the potential of every young person.',
         learnMore: 'Learn More',
         contactUs: 'Contact Us',
         
-        // About Us
         aboutTitle: 'About Us',
         aboutText1: 'We are the Youth Council at the Chornomorsk settlement council. Our team of enthusiasts believes in the power of youth and their ability to change the world for the better. We unite young people who want to develop, learn new things and implement their ideas.',
         aboutText2: 'We create a space where everyone can get support, gain new knowledge and find like-minded people for joint projects. Our mission is to reveal the potential of every young person and provide opportunities for personal and professional growth.',
         aboutText3: 'Through our initiatives, we aim to contribute to community development and create conditions where young people can freely express their opinions, propose ideas and take an active part in society.',
         
-        // Opportunities
         opportunitiesTitle: 'Our Opportunities',
         educationTitle: 'Educational Programs',
         educationDesc: 'Courses, workshops, lectures for skill development.',
@@ -136,15 +124,12 @@ const TRANSLATIONS = {
         creativityTitle: 'Creative Workshops',
         creativityDesc: 'Drawing, music, handicrafts - reveal your talent.',
         
-        // Trainings
         trainingsTitle: 'How Our Trainings Were Conducted',
         trainingsText1: 'Throughout the time, we met with different people and learned new things. We conducted master classes, workshops, lectures and practical classes with professionals from various fields. Each meeting was a unique opportunity to gain valuable knowledge, develop skills and find new like-minded friends.',
         trainingsText2: 'Our trainings covered various topics: from leadership and communication to digital skills and creative thinking. We believe that continuous learning is the key to personal and professional growth.',
         
-        // Team
         teamTitle: 'Our Team',
         
-        // News
         newsTitle: 'News',
         allNews: 'View All News',
         news1Title: 'YOUTH COUNCIL FORMATION',
@@ -154,14 +139,12 @@ const TRANSLATIONS = {
         news3Title: 'Updated Playground in Zmiienkove',
         news3Desc: 'Our community proved that together we can make our village better. Thanks to the activity of young people and caring residents, a real Upgrade of the playground was carried out.',
         
-        // Contacts
         contactsTitle: 'Contact Us',
         contactsText: 'We are always happy to meet new people, collaborate and hear your ideas. Follow our projects on social media and join our youth community!',
         followUs: 'Follow Us',
         facebook: 'Facebook',
         instagram: 'Instagram',
         
-        // TEAM MEMBERS TRANSLATIONS (ENGLISH)
         teamArtem: 'Head of the Youth Council at the Chornomorsk settlement council. Trainer in Kyokushin karate and physical education teacher. Actively works with the youth of our community.',
         
         teamVeronika: 'My name is Veronika Filonchyk, I am the Deputy Head of the Youth Council at the Chornomorsk settlement council. For me, the Youth Council is not just an organization, but an opportunity to implement ideas that make our lives better. I joined because I want young people to have a space for development, creativity and self-expression, so that everyone feels that our community\'s future depends on us. My goal is to work on projects that help young people realize their potential, support initiatives and create new traditions that unite the community.',
@@ -194,7 +177,7 @@ const TRANSLATIONS = {
         
         teamAnastasiaHrabova: 'Anastasia Hrabova. I study at the Chornomorsk Lyceum. I do music, dance and sports. I love learning new things. I joined the Youth Council because I want the voice of young people to be heard. It is important for me to develop my city and make it better for teenagers and young people. Here I can implement ideas, meet active people and learn to create real changes.',
         
-        teamAlesia: 'I is Alesia Dmytrenko, a 10th grade student at the Chornomorsk Lyceum. I am in the youth council because I want to be aware of all the events in our town, take an active part in its development and make my contribution to community life, and the Youth Council gives me the opportunity to be closer to it.',
+        teamAlesia: 'I am Alesia Dmytrenko, a 10th grade student at the Chornomorsk Lyceum. I am in the youth council because I want to be aware of all the events in our town, take an active part in its development and make my contribution to community life, and the Youth Council gives me the opportunity to be closer to it.',
         
         teamNikita: 'I joined the Youth Council to be part of the youth community and participate in its activities.'
     }
