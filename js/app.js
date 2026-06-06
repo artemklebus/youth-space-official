@@ -78,7 +78,8 @@ class YouthSpaceApp {
             const card = Components.createTeamCard(
                 member, 
                 CONFIG.imagePlaceholder, 
-                (m) => this.openModal(m)
+                (m, t) => this.openModal(m, t),
+                (key) => this.i18n.t(key)
             );
             container.appendChild(card);
         });
@@ -126,12 +127,14 @@ class YouthSpaceApp {
         });
     }
     
-    openModal(member) {
+    openModal(member, t) {
         this.modalPhoto.style.backgroundImage = `url(${member.img})`;
         this.modalPhoto.style.backgroundSize = 'cover';
         this.modalPhoto.style.backgroundPosition = 'center';
         this.modalName.textContent = member.name;
-        this.modalDesc.textContent = member.desc;
+        // Використовуємо descKey для перекладу опису
+        const descText = t(member.descKey);
+        this.modalDesc.textContent = descText;
         this.modal.classList.add('active');
         document.body.style.overflow = 'hidden';
         
