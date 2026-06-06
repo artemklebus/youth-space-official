@@ -17,7 +17,7 @@ class Components {
         return item;
     }
     
-    static createTeamCard(member, placeholder, onClick) {
+    static createTeamCard(member, placeholder, onClick, t) {
         const card = document.createElement('div');
         card.className = 'member-card';
         
@@ -37,7 +37,9 @@ class Components {
         
         card.appendChild(img);
         card.appendChild(info);
-        card.addEventListener('click', () => onClick(member));
+        
+        // Зберігаємо descKey для використання в модальному вікні
+        card.addEventListener('click', () => onClick(member, t));
         
         return card;
     }
