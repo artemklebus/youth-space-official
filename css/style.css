@@ -593,7 +593,6 @@ section {
     margin-top: 2rem;
 }
 
-/* ========== КОНТАКТИ З АНІМАЦІЄЮ ========== */
 .contacts {
     background: linear-gradient(135deg, var(--dark) 0%, var(--darker) 100%);
     color: white;
@@ -854,6 +853,7 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
+/* ========== АДАПТИВНІСТЬ ========== */
 @media (max-width: 1024px) {
     .cards-grid, .trainings-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -919,6 +919,35 @@ footer {
     
     .social-cards {
         justify-content: center;
+    }
+    
+    /* ВИПРАВЛЕННЯ ДЛЯ ФОТО НА МОБІЛЬНИХ - НЕ ОБРІЗАЮТЬСЯ */
+    .member-photo {
+        height: auto;
+        max-height: 300px;
+        object-fit: contain;
+        background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    }
+    
+    .about-image img {
+        height: auto;
+        max-height: 300px;
+        object-fit: contain;
+    }
+    
+    .training-item img,
+    .news-item img {
+        height: auto;
+        max-height: 250px;
+        object-fit: contain;
+        background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    }
+    
+    .modal-photo {
+        min-height: 250px;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        background-color: #f8f9fa;
     }
 }
 
